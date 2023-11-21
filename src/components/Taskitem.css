@@ -1,0 +1,19 @@
+.pendiente {
+    font-weight: 900;
+    color: hsl(0, 79%, 37%);  
+    font-size: 1.5vw; 
+
+}
+.completado {
+    text-decoration:line-through;
+    color:black;
+    font-style: italic;
+    font-size: 1.5vw;
+
+}
+
+.estado {
+    font-weight: 900;
+    text-align: center;
+    font-size: 1.5vw;
+}

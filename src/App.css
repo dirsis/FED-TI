@@ -1,0 +1,27 @@
+
+
+.palabra {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: relative;
+    color: #0e263d;
+    background: linear-gradient(90deg, #0e263d, #00bdf6, #838382);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: ondas 10s infinite;
+    margin-top: 1vw;
+  }
+
+  
+@keyframes ondas {
+    0% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
