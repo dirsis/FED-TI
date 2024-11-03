@@ -1,6 +1,5 @@
 .btn {
     background-color: rgb(17, 12, 82);
-    border-radius: 50%;
     font-family:'Arial Narrow', Arial, sans-serif;
     font-size: 1.3vw;
     margin-left: 3vw;
@@ -11,17 +10,6 @@
     text-align: left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
-}
-
-
-.burrito-container {
-    width: 4vw;
-    height: 4vw;
-    position: absolute;
-    overflow: hidden; 
-    margin-bottom: 0.5vw;
-    margin-left: 0vw;
-    padding: 0.5vw;
 }
 
 .botones{

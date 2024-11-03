@@ -29,7 +29,7 @@ export default function Taskform({ tareas, setTareas }) {
     <div className="row justify-content-md-center">
       <div className="card text-bg-secondary mb-6 col-8">
         <div className="card-body">
-          <h5 className="card-title">Nueva Tarea</h5>
+          <h5 className="card-title">+ Tarea</h5>
 
           <div className="mb-3">
             {/* <label className="form-label">Motivo</label> */}
@@ -52,15 +52,6 @@ export default function Taskform({ tareas, setTareas }) {
               >
                 <FontAwesomeIcon icon={faPlus} /> Agregar
               </button>
-              {/* <div className="burrito-container"> */}
-              <div>
-                <img
-                  src="../src/assets/GigDonkey.jpg"
-                  class="image"
-                  alt="burrito"
-                  
-                ></img>
-              </div>
             </div>
           </div>
         </div>
