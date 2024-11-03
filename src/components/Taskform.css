@@ -2,34 +2,13 @@
     background-color: rgb(17, 12, 82);
     font-family:'Arial Narrow', Arial, sans-serif;
     font-size: 1.3vw;
-    margin-left: 3vw;
 }
-
 .card-title{
     font-size: 1.5vw;
     text-align: left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
 }
-
 .botones{
   display: inline-flex;
-  
-
-  }
-
-  .image {
-    align-items: right;
-    width: 10%;
-    height: 10%;
-    object-fit: cover;
-    transform: rotate(0deg);
-    transition: transform 2s ease-in-out;
-    border-radius: 75%;
-
-    border-color: #960f1a;
-
-  }
-  .burrito-container:hover .image {
-    transform: rotate(360deg);
-  }
+}

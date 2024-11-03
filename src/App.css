@@ -12,16 +12,5 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: ondas 10s infinite;
     margin-top: 1vw;
-  }
-
-  
-@keyframes ondas {
-    0% {
-      background-position: 100% 0;
-    }
-    100% {
-      background-position: -100% 0;
-    }
-  }
+}
