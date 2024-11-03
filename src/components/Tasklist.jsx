@@ -5,7 +5,7 @@ import "./Tasklist.css";
 export default function Tasklist({ tareas, setTareas }) {
   return (
     <div className="col">
-      <table className="table  table-striped table-primary">
+      <table className="table table-striped table-primary">
         <thead>
           <tr>
             <th>Motivo</th>

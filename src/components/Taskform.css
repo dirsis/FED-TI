@@ -1,7 +1,13 @@
 .btn {
-    background-color: rgb(17, 12, 82);
+    background-color:black;
     font-family:'Arial Narrow', Arial, sans-serif;
     font-size: 1.3vw;
+}
+.card-body {
+  background-color: rgb(250, 250, 250);
+}
+.form-control{
+  border-color: black;
 }
 .card-title{
     font-size: 1.5vw;

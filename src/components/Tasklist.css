@@ -2,6 +2,19 @@
 .table th {
     font-size: 1.8vw;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(6, 16, 112);
+    background-color:black;
+    color:white
 }
+
+.table-primary {
+    --bs-table-border-color: #a6b5cc;
+    --bs-table-striped-bg: #e7eaf0;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #bacbe6;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #bfd1ec;
+    --bs-table-hover-color: #000;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}
+

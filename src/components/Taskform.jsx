@@ -27,7 +27,7 @@ export default function Taskform({ tareas, setTareas }) {
   };
   return (
     <div className="row justify-content-md-center">
-      <div className="card text-bg-secondary mb-6 col-8">
+      <div className="card text-bg-secondary mb-6 col-12">
         <div className="card-body">
           <h5 className="card-title">+ Tarea</h5>
 
