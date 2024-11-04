@@ -37,7 +37,7 @@ export default function Taskitem({ tarea, tareas, setTareas }) {
         </span>
       </td>
       <td width="20%">
-        <span className="estado">{tarea.estado == 0 ? "Pendiente" : "Completada"}</span>
+        <button className={tarea.estado == 0 ? "btn btn-outline-danger btn-block" : "btn btn-outline-success btn-block"}>{tarea.estado == 0 ? "Pendiente" : "Completada"}</button>
       </td>
       <td width="20%">
         <button

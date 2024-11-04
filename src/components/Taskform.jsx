@@ -26,13 +26,11 @@ export default function Taskform({ tareas, setTareas }) {
     }
   };
   return (
-    <div className="row justify-content-md-center">
-      <div className="card text-bg-secondary mb-6 col-12">
-        <div className="card-body">
-          <h5 className="card-title">+ Tarea</h5>
-
-          <div className="mb-3">
-            {/* <label className="form-label">Motivo</label> */}
+      <div className="card">
+        <div className="card-header">
+          <h5 className="card-title">Nueva Tarea</h5>
+        </div>
+          <div className="card-body">
             <input
               type="text"
               className="form-control"
@@ -42,9 +40,8 @@ export default function Taskform({ tareas, setTareas }) {
               onKeyUp={(e) => handleKeyUp(e)} //para pasar del enter al botón
             />
           </div>
-          <div className="botones">
-            <div className="mb-3">
-              <button
+          <div className="card-footer">
+          <button
                 type="button"
                 id="boton"
                 className="btn btn-primary"
@@ -52,10 +49,7 @@ export default function Taskform({ tareas, setTareas }) {
               >
                 <FontAwesomeIcon icon={faPlus} /> Agregar
               </button>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
   );
 }

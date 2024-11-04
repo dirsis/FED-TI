@@ -21,8 +21,7 @@ if (Ltareas){
 return (
     <>
       <div className="container">
-        <h1 className="palabra" >Agenda</h1>
-        
+        <h1>Agenda</h1>
         <div className="row">
             <Tasklist 
             tareas={tareas}
