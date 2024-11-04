@@ -1,4 +1,4 @@
-import { render } from "react-dom";
+//import { render } from "react-dom";
 import Taskitem from "./Taskitem";
 import "./Tasklist.css";
 
@@ -8,9 +8,11 @@ export default function Tasklist({ tareas, setTareas }) {
       <table className="table table-sm table-responsive">
         <thead className="table-group-divider">
           <tr>
-            <th>Motivo</th>
-            <th>Estado</th>
-            <th>Acción</th>
+            <th width="*" >Motivo</th>
+            <th width="10%" className="text-center">Fecha</th>
+            <th width="10%" className="text-end">Importe</th>
+            <th width="10%" className="text-center">Estado</th>
+            <th width="10%" className="text-center">Acción</th>
           </tr>
         </thead>
         <tbody>

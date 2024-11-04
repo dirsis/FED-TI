@@ -9,7 +9,7 @@ function App() {
 
 const [tareas, setTareas] = useState([]);
 const Ltareas = JSON.parse(localStorage.getItem('Ltareas'));
-// console.log(Ltareas);
+console.log(Ltareas);
 useEffect(() => {
 if (Ltareas){
   setTareas(Ltareas)

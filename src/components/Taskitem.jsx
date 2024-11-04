@@ -31,15 +31,19 @@ export default function Taskitem({ tarea, tareas, setTareas }) {
 
   return (
     <tr>
-      <td width="*">
-        <span className={tarea.estado == 0 ? "pendiente" : "completado"}>
+      <td className="text-center">
           {tarea.descrip}
-        </span>
       </td>
-      <td width="20%">
-        <button className={tarea.estado == 0 ? "btn btn-outline-danger btn-block" : "btn btn-outline-success btn-block"}>{tarea.estado == 0 ? "Pendiente" : "Completada"}</button>
+      <td>
+          {tarea.fecha}
       </td>
-      <td width="20%">
+      <td className="text-end">
+          {tarea.importe}
+      </td>
+      <td className="d-grid gap-2">
+        <button className={tarea.estado == 0 ? "btn btn-outline-danger" : "btn btn-outline-success"}>{tarea.estado == 0 ? "Pendiente" : "Completada"}</button>
+      </td>
+      <td>
         <button
           className={
             tarea.estado == 0
